@@ -542,5 +542,66 @@ body.is-menu-visible #menu .inner {
   float: left;
 }
 
+.box:hover {
+    cursor: pointer;
+    background-color: #636363;
+}
+
+.box > p{
+    font-size:3rem;
+    padding-top:18rem;
+}
+
+.box-red {
+    background-color: #FF0000;
+    text-align: center;
+    height:400px;
+}
+
+.box-yellow {
+    background-color: #FFFF00;
+    text-align: center;
+    height:400px;
+}
+
+.box-green {
+    background-color: #008000;
+    text-align: center;
+    height:400px;
+}
+
+.box-orange {
+    background-color: #ffa400;
+    text-align: center;
+    height:400px;
+}
+
+.box-blue {
+    background-color: #0000ff;
+    text-align: center;
+    height:400px;
+}
+
+.box-purple {
+    background-color: #800080;
+    text-align: center;
+    height:400px;
+}
+
+.box-black{
+    background-color: #000000;
+    text-align: center;
+    height:400px;
+    color:white;
+    font-size:4rem;
+}
+
+.box-gray{
+    background-color: #A6A6A6;
+    text-align: center;
+    height:400px;
+    font-size:4rem;
+}
+
 /*# sourceMappingURL=home.css.map */
 
