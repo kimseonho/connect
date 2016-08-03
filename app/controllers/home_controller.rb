@@ -73,4 +73,7 @@ class HomeController < ApplicationController
     
     redirect_to "/showroom"
   end
+  
+  def category_select
+  end
 end
