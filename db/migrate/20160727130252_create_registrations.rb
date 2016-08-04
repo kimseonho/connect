@@ -5,7 +5,7 @@ class CreateRegistrations < ActiveRecord::Migration
       
       t.string :productpic
       t.string :barcode
-      t.integer :couponnumber
+      t.integer :couponnumber, :limit => 16
       t.string :description
       t.string :productname
       t.string :category
